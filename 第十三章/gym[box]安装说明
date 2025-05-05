@@ -1,0 +1,15 @@
+1 安装 conda install -c anaconda swig
+
+2 按照 https://blog.csdn.net/m0_56190554/article/details/129296269 安装
+安装完毕一定要重启
+
+3 安装 pip install box2d-py
+
+如果第三步报错的话，
+请解压缩本章提供的swigwin进系统路径
+然后再安装
+pip install swig
+conda install swig
+最后再重新执行一遍：pip install gymnasium[all]
+
+步骤可能稍有混乱，作者亲测在win11上可以运行
